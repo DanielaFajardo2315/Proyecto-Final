@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Montserrat", Helvetica, sans-serif;
+}
+
+header{
+    background-color: #000218;
+    /* position: fixed; */
+    width: 100%;
+}
+
+.logo{
+    width: 20%;
+    padding: 40px 0px 0px 132px;
+}
+
+.intro{
+    background-color: #000218;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.texto_izq h1{
+    font-size: 58px;
+    font-weight: 700;
+    color: white;
+}
+
+.texto_izq p{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.button-shop{
+    width: 119px;
+    height: 52px;
+    padding: 15px 40px;
+    gap: 10px;
+    color: white;
+    background-color: #E74040;
+    border-radius: 5px;
+}
+
+.button-add{
+    width: 167px;
+    height: 52px;
+    padding: 15px 40px;
+    gap: 10px;
+    color: #E74040;
+    background-color: transparent;
+    border: 1px #E74040 solid;
+    border-radius: 5px;
+}
+
