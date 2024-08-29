@@ -73,8 +73,9 @@ header{
 }
 
 .texto_izq{
-    width: 50vw;
+    width: 50%;
     padding: 180px;
+    align-self: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -83,7 +84,7 @@ header{
 }
 
 .imagen_principal{
-    width: 50vw;
+    width: 50%;
 }
 
 .contenedor_general{
@@ -161,4 +162,20 @@ header{
     justify-content: center;
     gap: 40px;
     padding: 100px 0px;
+}
+
+footer{
+    height: 74px;
+    top: 2095px;
+    gap: 40px;
+    background-color: rgba(50, 48, 48, 1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.iconosRedes{
+    display: flex;
+    gap: 20px;
 }
