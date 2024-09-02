@@ -13,10 +13,12 @@ body{
     font-family: "Montserrat", Helvetica, sans-serif;
 }
 
-.primera{
+header{
     background-color: #000218;
     position: fixed;
     width: 100%;
+    top: 0;
+    left: 0;
 }
 
 .logo{
@@ -61,6 +63,12 @@ body{
     color: white;
     background-color: #E74040;
     border-radius: 5px;
+    text-decoration: none;
+}
+
+.button-shop:hover{
+    color: white;
+    text-decoration: none;
 }
 
 .button-add{
@@ -72,6 +80,12 @@ body{
     background-color: transparent;
     border: 1px #E74040 solid;
     border-radius: 5px;
+    text-decoration: none;
+}
+
+.button-add:hover {
+    text-decoration: none;
+    color: #E74040;
 }
 
 .texto_izq{
@@ -204,6 +218,12 @@ footer{
     background-color: transparent;
     border: none;
     cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+}
+
+.back:hover {
+    text-decoration: none;
 }
 
 .titulos h1{
@@ -323,6 +343,22 @@ a:hover {
 .nav-logo{
     display: flex;
     flex-direction: column;
+    gap: 10px;
+}
+
+.logo-ter {
+    width: 50%;
+    padding-top: 20px;
+}
+
+.icono-bag {
+    align-self: center;
+}
+
+.nav-ter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .articulos {
@@ -330,7 +366,7 @@ a:hover {
     flex-wrap: wrap;
     justify-content: flex-start;
     gap: 80px;
-    margin: 50px auto 50px 132px;
+    margin: 170px auto 50px 132px;
 }
 
 .articulos div {
@@ -344,10 +380,20 @@ a:hover {
 
 .otros {
     width: 223px;
+    transition: width 0.5s;
+}
+
+.otros:hover {
+    width: 263px;
 }
 
 .img1{
     width: 115px;
+    transition: widht 0.5s;
+}
+
+.img1:hover {
+    width: 155px;
 }
 
 .imagenes {
@@ -368,3 +414,10 @@ a:hover {
     font-weight: 500;
     margin-left: 20px;
 }
+
+.add:hover {
+    background-color: white;
+    border: #E74040 solid 1px;
+    color: #E74040;
+}
+
